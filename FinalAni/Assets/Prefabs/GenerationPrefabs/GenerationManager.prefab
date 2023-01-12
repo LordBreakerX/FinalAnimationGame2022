@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4602641140598409830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4602641140598409829}
+  - component: {fileID: 4602641140598409828}
+  m_Layer: 0
+  m_Name: GenerationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602641140598409829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4602641140598409830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4602641140598409828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4602641140598409830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ce3aeceb663ee4fa2c37c90e6a8df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingPlatforms:
+  - {fileID: 6023928910977142010, guid: b4c06384468ffba459e5d915d408bb54, type: 3}
+  - {fileID: 956802307243431983, guid: a9fcc7d8ea9d08a438eb484285e59b46, type: 3}
+  spawnPrefabsNormal:
+  - {fileID: 9176478750715927231, guid: 03bdf59272810844f98c683fb08b5ea8, type: 3}
+  - {fileID: 956802307243431983, guid: a9fcc7d8ea9d08a438eb484285e59b46, type: 3}
+  - {fileID: 6023928910977142010, guid: b4c06384468ffba459e5d915d408bb54, type: 3}
+  - {fileID: 58223011928256048, guid: ba004f2ea2f8c93489f325b28e2be69c, type: 3}
+  - {fileID: 1859163958888547903, guid: 06852a9452d202242a8e5179c95ac641, type: 3}
+  - {fileID: 2227067026389616073, guid: 744440a4f79153a40a8187efcac4e35c, type: 3}
+  - {fileID: 227465856832598101, guid: 3a45b395ab2087644a8b9958588f5c82, type: 3}
+  - {fileID: 2482255505603425676, guid: b9bce4c4f93568c49a4c91ed69fa4576, type: 3}
+  elevatorPrefabs:
+  - {fileID: 1221440043589619160, guid: fb8f581f034cd0e43a273b199089dab1, type: 3}
+  - {fileID: 5349751865293574105, guid: d36797890093c2a4fb9336caeb9873bc, type: 3}
+  FinalPlatformPrefab: {fileID: 5077564228937381142, guid: 54072c7deff2468458a347a32b4beb76, type: 3}
+  minPlatformAmount: 50
+  maxPlatformAmount: 50
+  minPlatformsBetweenElevator: 3
+  maxPlatformsBetweenElevator: 6
+  minPlatformOffset: -5
+  maxPlatformOffset: 2
